@@ -8,7 +8,7 @@ public class L20251107Target : TargetRules
 	public L20251107Target(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V5;
+		DefaultBuildSettings = BuildSettingsVersion.Latest;
 
 		ExtraModuleNames.AddRange( new string[] { "L20251107" } );
 	}
